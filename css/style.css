@@ -1380,31 +1380,36 @@ input:focus {
 
 .form-group .form-control:focus {
     box-shadow: none;
-    background-color: #fff;
-    border: 1px solid #6749f1;
+    background-color: rgba(255, 255, 255, 0.25) !important;
+    color: #ffffff !important;
+    border: 1px solid #6749f1 !important;
+    transition: all .3s;
 }
+
 
 .form-group .form-control {
     border-radius: 0;
     padding: 15px 20px;
     color: #160f30;
     margin-bottom: 18px;
+    transition: all .3s;
 }
 
 .form-group .form-control::-webkit-input-placeholder {
-    color: #717171
+    color: #eee;
 }
 
 .form-group .form-control:-ms-input-placeholder {
-    color: #717171
+    color: #eee;
 }
 
 .form-group .form-control::-ms-input-placeholder {
-    color: #717171
+    color: #eee;
 }
 
 .form-group .form-control::placeholder {
-    color: #717171
+    color: #eee;
+    transition: all .3s;
 }
 
 .form-group button {
