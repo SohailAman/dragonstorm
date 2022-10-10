@@ -1368,7 +1368,7 @@ input:focus {
     font-size: 16px;
     font-weight: 500;
     -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    transition: all .4s  !important;
     border: 2px solid #fff !important;
     display: inline-flex;
     align-items: center;
@@ -1380,7 +1380,7 @@ input:focus {
 .main-btn:hover{
     color:#333  !important;
     background: white !important;
-    transition: all .4s ease-in-out;
+    transition: all .4s !important;
 }
 
 .form-group .form-control:focus {
