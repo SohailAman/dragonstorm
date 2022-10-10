@@ -12,6 +12,10 @@ html {
     scroll-behavior: smooth !important;
 }
 
+* {
+    font-family: Chronicle Display, Times, serif !important;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -19,7 +23,7 @@ body {
 
 a {
     color: #000;
-    text-decoration: none;
+    text-decoration: none !important;
     outline: none;
 }
 
@@ -1340,7 +1344,7 @@ h3.fixed-title-box:empty {
 }
 
 #six div.slide-content h2.title-section {
-    margin: 3vh auto;
+    margin: 6vh auto;
 }
 
 input,
