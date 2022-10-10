@@ -1360,22 +1360,20 @@ input:focus {
 .main-btn {
     padding: 15px 50px;
     text-align: center;
-    background-image: -webkit-gradient(linear, left top, right top, from(#d365f1), color-stop(#6749f1), color-stop(#6749f1), to(#d365f1));
-    background-image: linear-gradient(to right, #d365f1, #6749f1, #6749f1, #d365f1);
+    background: transparent;
     background-size: 300% 100%;
     color: #f5f5f5;
     font-size: 16px;
     font-weight: 500;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-    border: 0;
+    border: 2px solid #fff !important;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     position: relative;
     border-radius: 5px;
     z-index: 0 !important;
-    box-shadow: 0 4px 0 -1px #000
 }
 
 .form-group .form-control:focus {
@@ -1397,18 +1395,22 @@ input:focus {
 
 .form-group .form-control::-webkit-input-placeholder {
     color: #eee;
+    font-family: rubik, sans-serif;
 }
 
 .form-group .form-control:-ms-input-placeholder {
     color: #eee;
+    font-family: rubik, sans-serif;
 }
 
 .form-group .form-control::-ms-input-placeholder {
     color: #eee;
+    font-family: rubik, sans-serif;
 }
 
 .form-group .form-control::placeholder {
     color: #eee;
+    font-family: rubik, sans-serif;
     transition: all .3s;
 }
 
