@@ -1306,6 +1306,7 @@ h3.fixed-title-box:empty {
     background-color: transparent;
     padding: 0;
     border: 0;
+    font-family: rubik, sans-serif !important;
     padding-right: 10px
 }
 
@@ -1350,6 +1351,7 @@ h3.fixed-title-box:empty {
 input,
 input:focus {
     outline: none;
+    font-family: rubik, sans-serif !important;
 }
 
 .heightRow {
@@ -1386,7 +1388,7 @@ input:focus {
 
 
 .form-group .form-control {
-       font-family: rubik, sans-serif;
+    font-family: rubik, sans-serif !important;
     border-radius: 0;
     padding: 15px 20px;
     color: #160f30;
