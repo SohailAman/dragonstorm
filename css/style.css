@@ -1386,6 +1386,7 @@ input:focus {
 
 
 .form-group .form-control {
+       font-family: rubik, sans-serif;
     border-radius: 0;
     padding: 15px 20px;
     color: #160f30;
