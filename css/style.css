@@ -1306,7 +1306,6 @@ h3.fixed-title-box:empty {
     background-color: transparent;
     padding: 0;
     border: 0;
-    font-family: rubik, sans-serif !important;
     padding-right: 10px
 }
 
@@ -1368,19 +1367,21 @@ input:focus {
     font-size: 16px;
     font-weight: 500;
     -webkit-transition: all .4s ease-in-out;
-    transition: all .4s  !important;
+    transition: all .4s ease-in-out !important;
     border: 2px solid #fff !important;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    font-family: rubik, sans-serif !important;
     border-radius: 5px;
     z-index: 0 !important;
 }
-.main-btn:hover{
-    color:#333  !important;
-    background: white !important;
+
+.main-btn:hover {
+    background: #fff !important;
     transition: all .4s !important;
+    color: #333 !important;
 }
 
 .form-group .form-control:focus {
@@ -1393,9 +1394,9 @@ input:focus {
 
 
 .form-group .form-control {
-    font-family: rubik, sans-serif !important;
     border-radius: 0;
     padding: 15px 20px;
+    font-family: rubik, sans-serif !important;
     color: #160f30;
     margin-bottom: 18px;
     transition: all .3s;
