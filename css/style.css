@@ -1377,6 +1377,11 @@ input:focus {
     border-radius: 5px;
     z-index: 0 !important;
 }
+.main-btn:hover{
+color:#333;
+    background: white;
+    transition: all .4s ease-in-out;
+}
 
 .form-group .form-control:focus {
     box-shadow: none;
