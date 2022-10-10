@@ -1378,8 +1378,8 @@ input:focus {
     z-index: 0 !important;
 }
 .main-btn:hover{
-color:#333;
-    background: white;
+    color:#333  !important;
+    background: white !important;
     transition: all .4s ease-in-out;
 }
 
